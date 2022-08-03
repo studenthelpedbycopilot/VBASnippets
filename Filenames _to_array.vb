@@ -15,7 +15,7 @@ Sub filesToArray()
     Dim i As Integer 
  
     Set objFSO = CreateObject("Scripting.FileSystemObject") 
-  Set objFolder = objFSO.GetFolder("C:\Users\Public\Pictures) 
+    Set objFolder = objFSO.GetFolder("C:\Users\Public\Pictures") 
     i = 0 
  
     For Each objFile In objFolder.Files 
