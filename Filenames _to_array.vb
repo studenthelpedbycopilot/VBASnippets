@@ -14,7 +14,7 @@ Sub ListarArquivosnapasta()
    
   Set ObjScriptArquivo = CreateObject("Scripting.FileSystemObject") 
  
-  Set ObjPasta = ObjScriptArquivo.GetFolder("C:\Users\conra\OneDrive\Imagens")
+  Set ObjPasta = ObjScriptArquivo.GetFolder("C:\Users\Public\Pictures")
 
   Debug.Print ObjPasta.Path
 
